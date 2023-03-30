@@ -1,11 +1,14 @@
-import {TaskCard}  from "./components/TaskCard";
+import { Home } from "./components/Home";
+import { TaskCard } from "./components/TaskCard";
+
 
 function App() {
     return (
-        <section>
-            <h1>Custom TODO-List</h1>
-            <TaskCard />
-        </section>
+        <main className="">
+            <Home />
+                <TaskCard />
+
+        </main>
     );
 }
 
